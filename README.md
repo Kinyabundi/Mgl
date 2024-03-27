@@ -22,8 +22,7 @@ The initial issue with the email verification process was identified as a miscon
    ## Refactoring Backend to Use NestJS and ORM
    ### Modular Structure
    NestJS promotes a modular structure, making the codebase more organized and easier to maintain. This is particularly beneficial for large applications with multiple functionalities.
-   ### Dependency Injection
-    NestJS's dependency injection system simplifies the management of dependencies, such as database connections and services. This leads to cleaner code and easier testing.
+   ### Dependency Injection: NestJS's dependency injection system simplifies the management of dependencies, such as database connections and services. This leads to cleaner code and easier testing.
    ### ORM for Database Operations
     Using an ORM abstracts the database operations, making the code cleaner and more maintainable. It also provides a level of abstraction that can make it easier to switch between different database systems if needed.
    ### Migrations
