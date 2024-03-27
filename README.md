@@ -22,13 +22,14 @@ The initial issue with the email verification process was identified as a miscon
    ## Refactoring Backend to Use NestJS and ORM
    ### Modular Structure
    NestJS promotes a modular structure, making the codebase more organized and easier to maintain. This is particularly beneficial for large applications with multiple functionalities.
-   ### Dependency Injection: NestJS's dependency injection system simplifies the management of dependencies, such as database connections and services. This leads to cleaner code and easier testing.
+   ### Dependency Injection
+   NestJS's dependency injection system simplifies the management of dependencies, such as database connections and services. This leads to cleaner code and easier testing.
    ### ORM for Database Operations
-    Using an ORM abstracts the database operations, making the code cleaner and more maintainable. It also provides a level of abstraction that can make it easier to switch between different database systems if needed.
+   Using an ORM abstracts the database operations, making the code cleaner and more maintainable. It also provides a level of abstraction that can make it easier to switch between different database systems if needed.
    ### Migrations
-     ORM's migration feature allows for easy database schema changes, ensuring that the database schema is always in sync with the application's data model. This is crucial for maintaining the integrity of the application's data over time.
+   ORM's migration feature allows for easy database schema changes, ensuring that the database schema is always in sync with the application's data model. This is crucial for maintaining the integrity of the application's data over time.
  ### Performance
-     ORM's efficient data handling and query generation can improve the application's performance, especially in scenarios involving complex database operations.
+ ORM's efficient data handling and query generation can improve the application's performance, especially in scenarios involving complex database operations.
 
 By refactoring the backend to use NestJS and ORM, you can leverage these advantages to create a more robust, maintainable, and scalable application.
 
