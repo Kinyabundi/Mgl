@@ -12,12 +12,16 @@ This report outlines the steps taken to fix the email verification feature in th
 The initial issue with the email verification process was identified as a misconfiguration in the backend service responsible for sending verification emails. This misconfiguration led to failed attempts in sending verification emails to users, thereby affecting the user registration process.
 
 ### Solution Implementation
-  Configuration Review: The first step was to review the configuration settings for the email service provider (ESP) used by the backend. This involved checking the SMTP settings, API keys, and any other relevant configurations that might affect email sending.
+  Configuration Review: The first step was to review the configuration settings for the email service provider (ESP) used by the backend. This involved checking the SMTP settings, API alt textkeys, and any other relevant configurations that might affect email sending.
 
   Configuration Correction: Upon identifying the misconfiguration, the necessary corrections were made. This included updating the SMTP settings to ensure they were correctly pointing to the ESP's servers, verifying the API keys, and ensuring that the ESP was correctly set up to send emails from the application's domain.
 
    Testing: After correcting the configuration, a series of tests were conducted to ensure that the email verification process was functioning as expected. This involved sending test emails to verify that they were successfully sent and received, and that the verification links within the emails were working correctly.
    ![alt text](image.png)
+
+   ## Add Price of Ethereum to profile page 
+   ![image](https://github.com/Kinyabundi/Mgl/assets/75924698/d20b0524-ee02-4c3d-9bf5-7ea9dc83c79c)
+
    ## Improvement Suggestion
    ## Refactoring Backend to Use NestJS and ORM
    ### Modular Structure
