@@ -20,9 +20,8 @@ The initial issue with the email verification process was identified as a miscon
    ![alt text](image.png)
 
    ## Add Price of Ethereum to profile page 
-   
-    ![image](https://github.com/Kinyabundi/Mgl/assets/75924698/afbfb196-4800-40e8-aabf-359975d38fe2)
-    
+   ![image](https://github.com/Kinyabundi/Mgl/assets/75924698/10bf96f8-5668-4f7b-9fa2-2d76ce055fab)
+
    ## Improvement Suggestion
    ## Refactoring Backend to Use NestJS and ORM
    ### Modular Structure
